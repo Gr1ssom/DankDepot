@@ -1,0 +1,23 @@
+{
+  "name": "dankdepot",
+  "version": "1.0.0",
+  "description": "cannabis point-of-sale software",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gr1ssom/DankDepot.git"
+  },
+  "author": "Grissom, Dylan",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Gr1ssom/DankDepot/issues"
+  },
+  "homepage": "https://github.com/Gr1ssom/DankDepot#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^8.0.3"
+  }
+}
