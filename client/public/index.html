@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budtender Dashboard</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <header>
+        <h1>Welcome, [Budtender Name]</h1>
+    </header>
+    
+    <section class="customer-list">
+        <h2>Customers Checked In</h2>
+        <!-- Each customer is displayed as a card -->
+        <div class="customer-card">
+            <h3>[Customer Name]</h3>
+            <p>Date of Birth: [DOB]</p>
+            <p>Medical/Recreational: [Medical/Recreational Status]</p>
+            <p>Checked In at: [Check-in Time]</p>
+        </div>
+        <!-- Repeat for other customers -->
+    </section>
+
+    <section class="assigned-customers">
+        <h2>Assigned Customers</h2>
+        <ul>
+            <!-- Display a list of customers currently assigned to this budtender -->
+            <li>[Customer Name] - Assigned at [Assignment Time]</li>
+            <!-- Repeat for other assigned customers -->
+        </ul>
+    </section>
+
+    <section class="search-customer">
+        <h2>Search Customer Profiles</h2>
+        <form>
+            <input type="text" id="search-input" placeholder="Enter customer name">
+            <button type="submit">Search</button>
+        </form>
+    </section>
+
+    <section class="create-customer">
+        <h2>Create New Customer Profile</h2>
+        <form>
+            <!-- Form fields for creating a new customer profile -->
+            <input type="text" id="customer-name" placeholder="Customer Name" required>
+            <!-- Add more input fields as needed -->
+            <button type="submit">Create Profile</button>
+        </form>
+    </section>
+
+    <section class="view-customer">
+        <h2>View Customer Profile</h2>
+        <!-- Display the selected customer's profile information here -->
+        <div id="customer-profile">
+            <h3>[Customer Name]</h3>
+            <p>[Customer Details]</p>
+        </div>
+    </section>
+
+    <script src="script.js"></script> <!-- Link to your JavaScript file for interaction -->
+</body>
+</html>
